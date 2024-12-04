@@ -12,7 +12,7 @@ Clonez ce repository sur votre machine locale :
 
 bash
 Copier le code
-git clone https://github.com/ArmandBRAUD/Districall-Test.git
+git clone https://votre-repository.git
 2. Installer les dépendances
 Naviguez dans le répertoire du projet et installez les dépendances avec Composer :
 
@@ -125,10 +125,3 @@ DELETE : Testez la suppression d'une tâche en envoyant une requête DELETE avec
 Structure des fichiers
 src/Controller/TaskController.php : Le contrôleur principal qui gère les routes API pour les tâches.
 public/tasks.json : Le fichier JSON qui stocke les tâches.
-Contributions
-Les contributions sont les bienvenues. Si vous souhaitez améliorer ce projet, vous pouvez soumettre des pull requests.
-
-Licence
-Ce projet est sous la licence MIT - voir le fichier LICENSE pour plus de détails.
-
-Ce fichier README fournit des instructions complètes pour installer et tester le projet via Postman. Il inclut des exemples pour toutes les méthodes HTTP disponibles (GET, POST, PUT, DELETE).
